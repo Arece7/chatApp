@@ -1,0 +1,27 @@
+
+<div id="container">
+        <div id="header">
+          <p id="Name" ng-repeat = "uName in userName">{{uName}}</p>
+            <h1 class="h1" align="center" style="color:white;">--------Welcome to Chat App-------</h1>
+            <p>
+            <div id="logout"><button type="button" id="logout-button" ng-click ="close()">Close</button></div>
+        </div>
+        <div id=Area>
+            <div id="leftarea">
+                
+            </div>
+            <div id="rightarea">
+              <div id="messagebox" >
+                  <div ><div ng-repeat = "chat in chatlist"><p  id="leftContainer" ng-if = "currentUserId != chat.senderId">{{chat.senderName}} : <span id="messgText">{{chat.message}}</span><br><br><span id="time-left1">{{chat.dateTime | date: 'medium'}}</span></p>
+                          <p id="rightContainer" ng-if = "currentUserId == chat.senderId">{{chat.senderName}} : <span id="messgText">{{chat.message}}</span><br><br><span id="time-right1">{{chat.dateTime | date: 'medium'}}</span></p></div>
+                  </div></div>
+                <div id="sendbox">
+                    <div id="textarea">
+                        <textarea id="text" rows="4" cols="50" placeholder="Enter your message" ng-model=message></textarea>
+                        <button id="sendbtn" type="button" placeholder="send" ng ng-click="send()">Send</button>
+                    </div>
+      
+                </div>
+            </div>
+        </div>
+      </div>

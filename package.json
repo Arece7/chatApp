@@ -1,0 +1,27 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "\"Chat application\"",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "angular-material": "^1.1.10",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.16",
+    "nodemailer": "^4.6.8",
+    "nodemon": "^1.18.4",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Arghya Ray",
+  "license": "ISC"
+}

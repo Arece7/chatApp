@@ -1,0 +1,177 @@
+#container{
+    width:1100px;
+     margin:0 auto;
+    background: rgba(83, 143, 255, 0.692);
+}
+#header{
+    
+    width:100%;
+    height: 83px;
+    border-bottom: 1px solid #c7c7c7;
+    background: rgba(88, 147, 255, 0.694);
+}
+#logo{
+    float: left;
+    width:80px;
+    height:80px;
+    margin:2px;
+    background: #777;
+
+}
+#logout{
+    float:right;
+    width:76px;
+    height:15px;
+    margin:4px;
+    background:whitesmoke;
+}
+#leftarea{ 
+    float:left;   
+    width:366px;
+    height:699px;
+    background:rgba(58, 134, 248, 0.651);
+    overflow: scroll;
+    
+}
+   
+
+#rightarea{
+    float:right;
+    width:725px;
+    height:700px;
+    background:rgba(37, 82, 231, 0.651)
+}
+#user{
+    float:left;   
+    width:363px;
+    height:688px;
+    border: 1px solid ;
+    background:rgb(188, 250, 146);
+    margin:2px;
+    font-size: 30px;
+    
+}
+
+
+#messagebox{
+    
+    width:717px;
+    height:600px;
+    border: 1px solid #333;
+    background: rgb(188, 250, 146);
+    margin:2px;
+    padding: 0px 09px;
+    resize: none;
+    overflow: scroll;
+
+}
+#sendbox{
+    float:right;
+    width:715px;
+    height:87px;
+    border: 1px solid rgb(65, 107, 247);
+    background: rgb(255, 255, 255);
+    margin:2px;
+    position: absolute
+
+}
+
+#sendbox:focus {
+    background-color: #0b68d3;
+}
+
+#sendbtn{
+
+    width: 78px;
+    height: 59px;
+    background: rgba(19, 200, 212, 0.71);
+    margin: 11px 0px 6px 10px;
+    position: absolute;
+    padding: 17px 7px 19px 10px;
+    border-radius: 9px;
+
+}
+.h1{
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+#text{
+    resize: none;
+    width: 617px;
+    height: 88px;
+}
+#logout-button
+{
+    background-color:red;
+    color: white;
+     padding:0px;  
+     margin: 0px;
+    cursor: pointer;
+    opacity: 0.9;
+    width: 100%;
+}
+
+#leftContainer {
+    border: 2px solid #f7f7f7;
+    background-color: #6598f5;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: left;
+    margin-right: 320px;
+    
+    
+}
+#rightContainer
+{
+    border: 2px solid #f7f7f7;
+    background-color: #f76970;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: right;
+    margin-left: 320px;
+     
+}
+/* Style time text */
+#time-right {
+    float: right;
+    color: rgb(243, 231, 231);
+}
+
+/* Style time text */
+#time-left {
+    float: left;
+    color: rgb(245, 238, 238);
+}
+#Name
+{
+font-size:20px;
+padding-left: 20px;
+border: 1px solid #333;
+width:190px;
+font-style: italic
+}
+#leftContainer1 {
+    border: 2px solid #f7f7f7;
+    background-color: #6598f5;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: left;
+    margin-right: 320px;
+    
+    
+}
+#rightContainer1
+{
+    border: 2px solid #f7f7f7;
+    background-color: #f76970;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: right;
+    margin-left: 320px;
+     
+}

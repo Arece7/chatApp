@@ -1,0 +1,26 @@
+
+<body>	
+<div class="container" >
+	<section id="content">
+		<form name="formValidation">
+			<h1>ChatApp</h1>
+			<h2>Login</h2>
+			<div>
+				<input type="email"name="email" placeholder="Email Id" required ng-model="user.email" ng-pattern="/\S+@\S+\.\S+/"  id="email" />
+				<p style="color:red;" ng-show="formValidation.email.$error.pattern">Please provide a valid Email Id.</p>
+				<p style="color:red;" >{{message}}</p>
+			</div>
+			<div>
+				<input type="password" name="password"placeholder="Password" required minlength="8" ng-model="user.password" ng-pattern="/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/" id="password" />
+				<p style="color:red;" ng-show="formValidation.password.$error.pattern">Please provide min 8 length password with an alphabet & a number.</p>
+			</div>
+			<div>
+				<input type="submit" ng-click="login()" value="Log in" />
+				<a href="#/forgot">Forget password?</a>
+				<a href="#/signup">Register</a>
+			</div>
+		</form><!-- form -->
+		
+	</section><!-- content -->
+</div><!-- container -->
+</body>

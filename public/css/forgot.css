@@ -1,0 +1,47 @@
+.container1 { margin: 25px auto; position: relative; width: 900px; }
+#content1 {
+	background: #f9f9f9;
+	background: -moz-linear-gradient(top,  rgba(248,248,248,1) 0%, rgba(249,249,249,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(249,249,249,1) 100%);
+	background: -o-linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(249,249,249,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(249,249,249,1) 100%);
+	background: linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(249,249,249,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#f9f9f9',GradientType=0 );
+	-webkit-box-shadow: 0 1px 0 #fff inset;
+	-moz-box-shadow: 0 1px 0 #fff inset;
+	-ms-box-shadow: 0 1px 0 #fff inset;
+	-o-box-shadow: 0 1px 0 #fff inset;
+	box-shadow: 0 1px 0 #fff inset;
+	border: 1px solid #c4c6ca;
+	margin: 0 auto;
+	padding: 25px 75px 39px;
+	position: relative;
+	text-align: center;
+	text-shadow: 0 1px 0 #fff;
+	width: 427px;
+}
+input[type=email]
+{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  input[type=email]:focus
+  {
+    background-color: #ddd;
+    outline: none;
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+  }
+  

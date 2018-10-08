@@ -1,0 +1,20 @@
+
+<body>	
+        <div class="container" >
+            <section id="content">
+                <form name="formValidation">
+                    <h1>ChatApp</h1>
+                    <h2>Account recovery</h2>
+                    <div>
+                        <input type="email"name="email" placeholder="Please provide your Email Id" required ng-model="user.email" ng-pattern="/\S+@\S+\.\S+/"  id="email" />
+                        <p style="color:red;" ng-show="formValidation.email.$error.pattern">Please provide a valid Email Id.</p>
+                        </div>
+                        <div>
+                                <button onclick="location.href='#/text'"type="submit" ng-click="submit()" value="submit" />Submit</button>
+                            </div>
+                        </form><!-- form -->
+                        
+                    </section><!-- content -->
+                </div><!-- container -->
+                </body>
+                

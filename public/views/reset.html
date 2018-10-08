@@ -1,0 +1,17 @@
+<head> 
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/reset.css" /> 
+     </head>
+<form style="border:1px solid #ccc" name="formValid">
+    <div class="container">
+      <h1>Reset Password</h1>
+      <p>Please change your password.</p>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" ng-model="user.password" name="password" ng-pattern="/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/" minlength="8" required>
+          <p style="color:red;"  ng-show="formValid.password.$error.pattern">Please provide min 8 length password with an alphabet & a number.</p>
+          <label for="psw"><b>Confirm Password</b></label>
+
+          <input type="password" placeholder="Enter confirm Password" name="ConfirmPassword" ng-model="ConfirmPassword" />
+          <p style="color:red;"ng-show="check()">Please provide Same password,both password should be same</p>
+          <button type="submit" ng-click="register()" class="signupbtn">Submit</button>
+        </div>
+    </form>
